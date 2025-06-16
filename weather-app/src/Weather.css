@@ -1,0 +1,40 @@
+.weather-container {
+    text-align: center;
+    margin-top: 50px;
+    font-family: sans-serif;
+    color: #5b72a3;
+  }
+  
+  input {
+    padding: 8px;
+    margin-right: 10px;
+    width: 200px;
+    font-size: 1rem;
+  }
+  
+  button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .weather-info {
+    margin-top: 20px;
+    background: #f2f2f2;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 8px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+
+  .center-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+  
